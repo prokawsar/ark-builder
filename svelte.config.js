@@ -1,5 +1,5 @@
 // import adapter from '@sveltejs/adapter-vercel';
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 import { mdsvex } from 'mdsvex';
@@ -10,7 +10,9 @@ const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	kit: {
 		adapter: adapter(),
-
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/ark-builder' : ''
+		},
 		// remove this if you're not using comment system
 		csp: { mode: 'auto' }
 	},

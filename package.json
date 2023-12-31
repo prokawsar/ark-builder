@@ -41,6 +41,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/adapter-vercel": "^4.0.3"
 	}
 }
