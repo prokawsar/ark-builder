@@ -9,12 +9,10 @@ import mdsvexConfig from './mdsvex.config.js';
 const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	kit: {
-		adapter: adapter({
-			pages: 'build'
-		}),
-		outDir: './docs',
+		adapter: adapter(),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/ark-builder' : ''
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			// base: process.env.NODE_ENV === 'production' ? '/ark-builder' : ''
 		},
 		// remove this if you're not using comment system
 		csp: { mode: 'auto' }
