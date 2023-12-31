@@ -5,6 +5,7 @@ import { getEntries } from '$utils/entries.js';
 function slugsArray(tags) {
 	return tags?.map((t) => slug(t)) || [];
 }
+export let prerender = false;
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ params }) {
