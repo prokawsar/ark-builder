@@ -28,10 +28,10 @@ export const user = {
 
 export const navLinks = [
 	{ href: '/apps', title: 'Apps' },
-	{
-		href: 'https://ark-builders.notion.site/Research-0e9029fa5e704ddfa8b6786b794a2f17',
-		title: 'Research'
-	},
+	// {
+	// 	href: 'https://ark-builders.notion.site/Research-0e9029fa5e704ddfa8b6786b794a2f17',
+	// 	title: 'Research'
+	// },
 	{ href: '/blog', title: 'Blog' },
 	{ href: '/', title: 'Contribute' },
 	{ href: '/', title: 'Support' }

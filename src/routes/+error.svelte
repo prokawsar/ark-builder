@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 </script>
 
@@ -11,6 +12,6 @@
 		<p class="text-2xl font-semibold">Something went wrong</p>
 	{/if}
 	<div class="pt-10">
-		<a href="/" class="text-xl font-semibold border py-2 px-6 rounded-lg">Go Back Home</a>
+		<a href="{base}/" class="text-xl font-semibold border py-2 px-6 rounded-lg">Go Back Home</a>
 	</div>
 </div>

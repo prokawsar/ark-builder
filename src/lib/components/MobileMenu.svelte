@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { navLinks } from '$lib/config';
 
 	let isOpen = false;
@@ -64,7 +65,7 @@
 			{#each navLinks as link}
 				<div class="px-12 py-4">
 					<a
-						href={link.href}
+						href="{base}{link.href}"
 						class="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
 						on:click={toggleDarkMode}
 					>

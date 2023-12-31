@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { slug } from 'github-slugger';
 
 	export let text = '';
@@ -7,7 +8,7 @@
 </script>
 
 <a
-	href={`/tags/${url}`}
+	href="{base}{`/tags/${url}`}"
 	class="mr-3 font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 {size}"
 >
 	{text}

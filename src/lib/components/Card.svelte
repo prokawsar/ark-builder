@@ -1,4 +1,6 @@
 <script>
+	import { base } from "$app/paths";
+
 	export let card;
 </script>
 
@@ -33,7 +35,7 @@
 		<div class="p-6">
 			<h2 class="mb-3 text-2xl font-bold leading-8 tracking-tight">
 				{#if card.href}
-					<a href={card.href} aria-label={`Link to ${card.title}`}>
+					<a href="{base}{card.href}" aria-label={`Link to ${card.title}`}>
 						{card.title}
 					</a>
 				{:else}
@@ -43,7 +45,7 @@
 			<p class="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{card.description}</p>
 			{#if card.href}
 				<a
-					href={card.href}
+					href="{base}{card.href}"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"

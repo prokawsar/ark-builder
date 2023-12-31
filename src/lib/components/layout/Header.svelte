@@ -4,12 +4,14 @@
 	import MobileMenu from '$lib/components/MobileMenu.svelte';
 	import Twitter from '$lib/icons/twitter.svelte';
 	import Github from '$lib/icons/github.svelte';
+	import { base } from '$app/paths';
+
 </script>
 
 <!-- <div class="header-bar fixed top-0"></div> -->
 <header class="flex items-center justify-between py-3 sticky top-0 bg-white dark:bg-gray-900 bg-opacity-95">
 	<div class="flex flex-row items-center">
-		<a href="/" aria-label={config.headerTitle}>
+		<a href="{base}/" aria-label={config.headerTitle}>
 			<div class="flex items-center justify-between">
 				<div class="mr-3">
 					<!-- <img src="/logo.svg" alt="Logo" class="h-10 w-auto" /> -->
@@ -22,7 +24,7 @@
 
 		<div class="hidden sm:block ml-5">
 			{#each navLinks as link}
-				<a href={link.href} target="{link.title == 'Research' ? '_blank' : ''}" class="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-2"
+				<a href="{base}{link.href}" target="{link.title == 'Research' ? '_blank' : ''}" class="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-2"
 					>{link.title}</a
 				>
 			{/each}

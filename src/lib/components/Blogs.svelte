@@ -5,6 +5,7 @@
 	import SearchBox from '$lib/components/SearchBox.svelte';
 	import { page } from '$app/stores';
 	import fuzzySearch from '$utils/search.js';
+	import { base } from '$app/paths';
 
 	export let title = '';
 	export let subtitle = '';
@@ -66,7 +67,7 @@
 								<div class="space-y-6">
 									<div>
 										<h2 class="text-2xl font-bold leading-8 tracking-tight">
-											<a href={`/blog/${post.slug}`} class="text-gray-900 dark:text-gray-100">
+											<a href="{base}{`/blog/${post.slug}`}" class="text-gray-900 dark:text-gray-100">
 												{post.title}
 											</a>
 										</h2>

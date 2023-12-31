@@ -2,6 +2,7 @@
 	import { config } from '$lib/config';
 	import SocialIcon from '$lib/components/SocialIcon.svelte';
 	import Newsletter from '$lib/components/Newsletter.svelte';
+	import { base } from '$app/paths';
 
 	let year = new Date().getFullYear();
 </script>
@@ -16,8 +17,8 @@
 			<Newsletter />
 		{/if}
 		<div class="mb-4 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
-			<a href="/">{config.title}</a> &nbsp; • &nbsp; © {year}
-			{config.author} &nbsp; • &nbsp; <a href="/rss.xml">RSS Feed</a>
+			<a href="{base}/">{config.title}</a> &nbsp; • &nbsp; © {year}
+			{config.author} &nbsp; • &nbsp; <a href="{base}/rss.xml">RSS Feed</a>
 		</div>
 	</div>
 </footer>

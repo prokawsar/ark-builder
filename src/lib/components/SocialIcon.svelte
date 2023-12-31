@@ -5,6 +5,7 @@
 	import IconYoutube from '$lib/icons/youtube.svelte';
 	import IconLinkedin from '$lib/icons/linkedin.svelte';
 	import IconTwitter from '$lib/icons/twitter.svelte';
+	import { base } from '$app/paths';
 
 	export let url = '';
 	export let icon = '';
@@ -28,7 +29,7 @@
 {#if url}
 	<a
 		class="flex gap-x-2 text-gray-500 transition hover:text-primary-600"
-		href={url || '#'}
+		href="{base}{url || '#'}"
 		target={popup ? '_blank' : ''}
 		rel="noreferrer"
 	>
