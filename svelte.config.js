@@ -12,6 +12,7 @@ const config = {
 		adapter: adapter({
 			pages: 'build'
 		}),
+		outDir: './docs',
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/ark-builder' : ''
 		},

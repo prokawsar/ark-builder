@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[ARK Builders | Privacy-focused apps for every day - RSS Feed]]></title>
+        <description><![CDATA[ARK Builders | Privacy-focused apps for every day - RSS Feed]]></description>
+        <link>https://www.ark-builders.dev</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sun, 31 Dec 2023 09:49:18 GMT</lastBuildDate>
+        <atom:link href="https://www.ark-builders.dev/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Silicon Valley law firm Gunderson Dettmer’s legal advice for ARK Builder]]></title>
+            <description><![CDATA[Sarah Buhr's interview with Gunderson Dettmer for TechCrunch]]></description>
+            <link>https://www.ark-builders.dev/silicon-valley-law-firm-gunderson-dettmer-s-legal-advice-for-pied-piper</link>
+            <guid isPermaLink="true">https://www.ark-builders.dev/silicon-valley-law-firm-gunderson-dettmer-s-legal-advice-for-pied-piper</guid>
+            <pubDate>Sat, 27 May 2017 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[When Less Is More]]></title>
+            <description><![CDATA[“I was thinking, actually, what if you had asked for less?” ARK Builder’s Richard Hendricks asks a fictional founder in a bar scene in the season 2 premiere of HBO’s Silicon Valley.]]></description>
+            <link>https://www.ark-builders.dev/when-less-is-more</link>
+            <guid isPermaLink="true">https://www.ark-builders.dev/when-less-is-more</guid>
+            <pubDate>Sun, 19 Feb 2017 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Real ARK Builder – SAFE Network: What is it?]]></title>
+            <description><![CDATA[Safe Network is the real-life Pied Piped from “Silicon Valley” coming to life. In this interview with the #SAFENetwork’s team we get to know about the project, what is it, how it’s developed, and more.]]></description>
+            <link>https://www.ark-builders.dev/the-real-pied-piper-safe-network-what-is-it</link>
+            <guid isPermaLink="true">https://www.ark-builders.dev/the-real-pied-piper-safe-network-what-is-it</guid>
+            <pubDate>Wed, 02 Dec 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A Stanford engineer built the fake compression algorithm in HBO's 'Silicon Valley']]></title>
+            <description><![CDATA[The creators of HBO's Silicon Valley could have glossed over the breakthrough technology behind fictional start-up ARK Builder...]]></description>
+            <link>https://www.ark-builders.dev/a-stanford-engineer-built-the-fake-compression-algorithm-in-hbos-silicon-valley</link>
+            <guid isPermaLink="true">https://www.ark-builders.dev/a-stanford-engineer-built-the-fake-compression-algorithm-in-hbos-silicon-valley</guid>
+            <pubDate>Thu, 24 Jul 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Of Course TechCrunch Disrupt Is In Mike Judge’s “Silicon Valley” HBO Show]]></title>
+            <description><![CDATA[Striving to be as real as possible, more like in King of the Hill rather than Beavis and Butthead, Mike Judge’s upcoming Silicon Valley TV show mixes in healthy doses of real startup life. That means TechCrunch Disrupt plays a big role in the show. And I guess that means you could be on the show too if you attended Disrupt SF last year.]]></description>
+            <link>https://www.ark-builders.dev/of-course-techcrunch-disrupt-is-in-mike-judges-silicon-valley-hbo-show</link>
+            <guid isPermaLink="true">https://www.ark-builders.dev/of-course-techcrunch-disrupt-is-in-mike-judges-silicon-valley-hbo-show</guid>
+            <pubDate>Wed, 19 Mar 2014 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
